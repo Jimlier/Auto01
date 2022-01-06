@@ -20,5 +20,5 @@ jobs:
           git config --local user.name "Jimlier"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "The country becomes prosperous and the nation revitalizes the people's happiness"
+          git commit --allow-empty -m "Want to fall in love this year"
           git push
